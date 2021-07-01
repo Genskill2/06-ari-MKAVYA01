@@ -2,7 +2,6 @@
 #include<stdlib.h>
 #include<ctype.h>
 #include<math.h>
-#include<assert.h>
 #include<string.h>
 #include<cs50.h>
 
@@ -28,7 +27,7 @@ string ari(string str)
         }
     }
 
-    index = (ceil)((4.71 * l/w) + (0.5 * w/s) - 21.43);
+    index = (ceil)((4.71 * c/w) + (0.5 * w/sen) - 21.43);
 
     switch(index)
     {
